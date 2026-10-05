@@ -1,0 +1,54 @@
+@keyframes op{
+    0%{
+        opacity: 1;
+        height:300vh;
+
+    }
+
+    100%{
+        opacity:0;
+        height:300vh;
+        display:none;
+    }
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes panda{
+    0%{
+        background-image:url(画像/パンダアニメーション/パンダ1.png)
+    }
+    20%{
+        background-image:url(画像/パンダアニメーション/パンダ2.png)
+    }
+    40%{
+        background-image:url(画像/パンダアニメーション/パンダ3.png)
+    }
+    60%{
+        background-image:url(画像/パンダアニメーション/パンダ4.png)
+    }
+    80%{
+        background-image:url(画像/パンダアニメーション/パンダ3.png)
+    }
+    100%{
+        background-image:url(画像/パンダアニメーション/パンダ2.png)
+    }
+}
+
+.tag:hover{
+    transform:translateX(-10px);
+
+}
+
+
+
